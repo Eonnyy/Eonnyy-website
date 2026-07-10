@@ -2,7 +2,7 @@
 
 A nostalgic, desktop-inspired personal website built to look and feel like a classic Windows 95 desktop — complete with draggable-looking windows, a working music player, a live guestbook, and project cards pulled straight from GitHub.
 
-**🌐 Live site:** _add your Neocities/Vercel link here_
+**🌐 Live site:** [eonnyy.neocities.org](https://eonnyy.neocities.org/)
 
 ![Made with Claude](https://img.shields.io/badge/Built%20with-Claude%20AI-6B4FBB?style=flat-square)
 ![No Framework](https://img.shields.io/badge/Stack-HTML%2FCSS%2FJS-orange?style=flat-square)
@@ -19,6 +19,17 @@ A nostalgic, desktop-inspired personal website built to look and feel like a cla
 - **📌 Live project cards** — the Projects tab pulls repo info directly from GitHub using auto-generated pin cards, plus optional custom thumbnails per project
 - **📱 Responsive layout** — collapses gracefully into a single column on smaller screens
 - **🎨 Fully custom CSS** — no UI framework, hand-built Windows 95 component system (title bars, buttons, scrollable panels)
+
+## ▶️ Running the Site
+
+**See it live:** [eonnyy.neocities.org](https://eonnyy.neocities.org/)
+
+To run it yourself locally (e.g. to preview changes before uploading):
+
+1. Clone or download this repo
+2. Open `index.html` directly in your browser — no build step, no server needed
+
+> **Heads up:** the GitHub API-based features (Guestbook and Projects) may behave differently when opened locally via `file://`, since some browsers block cross-origin requests from local files. To test those two tabs properly, upload the files to your actual host (Neocities, Vercel, GitHub Pages, etc.) and view it from there.
 
 ## 🛠️ Built With
 
